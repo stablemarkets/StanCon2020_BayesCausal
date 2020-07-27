@@ -2,7 +2,7 @@
 
 # Bayesian Causal Estimation with Stan.
 
-This folder contains slides and codes running synthetic example discussed in the talk.
+This folder contains slides (StanCon_BayesianCausal.pdf) and codes (code/) running synthetic example discussed in the talk.
 
 This talk was based on the following paper:
 https://arxiv.org/pdf/2004.07375.pdf
