@@ -7,5 +7,5 @@ This folder contains slides and codes running synthetic example discussed in the
 This talk was based on the following paper:
 https://arxiv.org/pdf/2004.07375.pdf
 
-Please cite when sharing contents from this talk.
+Feel free to cite this paper when sharing contents from this talk.
   
