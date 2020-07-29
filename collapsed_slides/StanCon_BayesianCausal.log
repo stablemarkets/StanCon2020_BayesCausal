@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 JUL 2020 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 JUL 2020 23:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1856,7 +1856,7 @@ Package rerunfilecheck Info: File `StanCon_BayesianCausal.out' has not changed.
 Here is how much of TeX's memory you used:
  34028 strings out of 492995
  681200 string characters out of 6132704
- 885372 words of memory out of 5000000
+ 886372 words of memory out of 5000000
  36849 multiletter control sequences out of 15000+600000
  38875 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1878,7 +1878,7 @@ exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on StanCon_BayesianCausal.pdf (21 pages, 608503 bytes).
+Output written on StanCon_BayesianCausal.pdf (21 pages, 608785 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  162 compressed objects within 2 object streams

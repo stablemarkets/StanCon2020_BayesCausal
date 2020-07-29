@@ -295,8 +295,8 @@
 
 	\begin{enumerate}
 	\scriptsize
-		\item Obtain $m^{th}$ set of posterior draws $\omega^{(m)}$ and for each $A=a$
-		$$  \mu^{(m)}( a, v, L_i ) = \beta_v^{(m)} + \beta_L^{(m)}L_i + \theta_v^{(m)} a $$
+		\item Obtain $m^{th}$ set of posterior draws $\omega^{(m)}$ and for each $A=a$ and $V=v$
+		$$  \mu^{(m)}( a, v, L_i ) = g^{-1}( \beta_v^{(m)} + \beta_L^{(m)}L_i + \theta_v^{(m)} a) $$
 		
 		\pause
 		\item Draw Bayesian Bootstrap weights from posterior:
@@ -304,7 +304,7 @@
 		
 		\pause
 		\item Integrate of confounder distribution
-		$$ E^{(m)}(Y^a \mid v ) = \int_{\mathcal{L}} \mu(a, v, L) dP(L) \approx \sum_{i=1}^n \mu^{(m)}( a, v, L_i ) p_i $$
+		$$ E^{(m)}(Y^a \mid v ) = \int_{\mathcal{L}} \mu(a, v, L) dP(L) \approx \sum_{i=1}^n \mu^{(m)}( a, v, L_i ) \cdot p_i^{(m)} $$
 		
 		\pause
 		\item Compute draw of causal odds ratio:
@@ -409,7 +409,7 @@ for( v in 1:Pv ){
 
 	Draw $\Delta^{(m)}$ from the prior and compute, 
 	
-	$$ E^{(m)}(Y^a \mid v ) =  \Big\{ \sum_{i=1}^n \mu^{(m)}( a, v, L_i ) p_i \Big\} - \Delta^{(m)} $$
+	$$ E^{(m)}(Y^a \mid v ) =  \Big\{ \sum_{i=1}^n \mu^{(m)}( a, v, L_i ) \cdot p_i^{(m)} \Big\} - \Delta^{(m)} $$
 
 \end{frame}
 
