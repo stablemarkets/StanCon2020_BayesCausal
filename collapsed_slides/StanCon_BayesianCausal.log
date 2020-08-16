@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2020 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2020 17:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1309,7 +1309,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 162.
 
-No file StanCon_BayesianCausal.aux.
+(./StanCon_BayesianCausal.aux)
 \openout1 = `StanCon_BayesianCausal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
@@ -1328,6 +1328,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
 LaTeX Font Info:    ... okay on input line 167.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 167.
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1401,6 +1402,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 167.
 LaTeX Info: Redefining \pageref on input line 167.
 LaTeX Info: Redefining \nameref on input line 167.
+
+(./StanCon_BayesianCausal.out) (./StanCon_BayesianCausal.out)
 \@outlinefile=\write5
 \openout5 = `StanCon_BayesianCausal.out'.
 
@@ -1484,7 +1487,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-No file StanCon_BayesianCausal.nav.
+(./StanCon_BayesianCausal.nav)
 <../logos/aologo.png, id=13, 212.795pt x 43.16125pt>
 File: ../logos/aologo.png Graphic file (type png)
  <use ../logos/aologo.png>
@@ -1855,30 +1858,18 @@ Package pdftex.def Info: ../logos/DBEI.png used on input line 453.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
 
-(./StanCon_BayesianCausal.aux
-*************************************************
-* pdfbase warning: "rerun"
-* 
-* Rerun to get internal references right!
-*************************************************
-)
+(./StanCon_BayesianCausal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
+Package rerunfilecheck Info: File `StanCon_BayesianCausal.out' has not changed.
 
-
-Package rerunfilecheck Warning: File `StanCon_BayesianCausal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `StanCon_BayesianCausal.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33973 strings out of 492995
- 680618 string characters out of 6132704
- 886096 words of memory out of 5000000
- 36802 multiletter control sequences out of 15000+600000
+ 34028 strings out of 492995
+ 681201 string characters out of 6132704
+ 886372 words of memory out of 5000000
+ 36849 multiletter control sequences out of 15000+600000
  38856 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,15n,96p,10427b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1898,7 +1889,7 @@ xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/201
 2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on StanCon_BayesianCausal.pdf (21 pages, 602661 bytes).
+Output written on StanCon_BayesianCausal.pdf (21 pages, 602665 bytes).
 PDF statistics:
  222 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
