@@ -199,7 +199,7 @@
 	
 	  
 	Under some \textcolor{blue}{identification assumptions}
-	$$ E[Y^a \mid V=v] = \int_{\mathcal{L}} \underbrace{E[ Y\mid A=a, V=v, L ]}_{\text{Regression, $\mu(a, v, l)$ }} \cdot \underbrace{dP(L \mid V=v )}_{ \text{Confounder $P_v(L)$ } }  $$
+	$$ E[Y^a \mid V=v] = \int_{\mathcal{L}} \underbrace{E[ Y\mid A=a, V=v, L ]}_{\text{Regression, $\mu(a, v, l)$ }} \underbrace{dP(L)}_{ \text{Confounder} }  $$
 \end{frame}
 
 \begin{frame}
@@ -266,48 +266,45 @@
 	$$ \Psi(v) = \frac{ E(Y^1 \mid v)/[1-E(Y^1 \mid v)] }{E(Y^0 \mid v)/[1-E(Y^0 \mid v)] } $$
 	 
 	Using $g$-computation, 
-	$$ E(Y^a \mid v ) = \int_{\mathcal{L}} \mu(a, v, L) dP_v(L) $$
+	$$ E(Y^a \mid v ) = \int_{\mathcal{L}} \mu(a, v, L) dP(L) $$
 	
 	But what about model for $P(L)$?
 \end{frame}
 
 \begin{frame}
 	\frametitle{The Bayesian Bootstrap}
-	Let $S_v = \{ i : V_i = v \}$ with size $n_z$
-	 
+	
 	\begin{itemize}
-	 \item  \textcolor{blue}{Frequentist estimate}: 
-	 $$\hat P_v( l ) = \sum_{j \in S_v } \frac{1}{n_v} \cdot \delta_{L_j } (l)$$
+	 \item  \textcolor{blue}{Frequentist estimate}: $\hat P(L=l) = \sum_{i=1}^n \frac{1}{n} \cdot \delta_{L_i} (l)$
 	  
-	 \item \textcolor{blue}{Bayesian model}:
-	 $$P_v( l \mid p_{v}) = \sum_{j \in S_v} p_{vj} \cdot \delta_{L_j} ( l )$$
+	 \item \textcolor{blue}{Bayesian model}: $P(L=l \mid p_{1:n}) = \sum_{i=1}^n p_i \cdot \delta_{L_i} (l)$
 	  
 	 \begin{itemize}
-	 	\item Unknown weight vector: $p_v = \{ p_{vj} : j \in S_v \} $.
+	 	\item prior: 
+		$$p_{1:n} \sim Dirichlet(0_n)$$
 		 
-	 	\item Prior: $p_{v} \sim Dirichlet(0_{n_v} )$
-		 
-		\item Posterior: $p_{v} \mid L \sim Dirichlet(1_{n_v})$
-		$$E[p_{vj} \mid L] = 1/n_{v} $$
+		\item posterior: 
+		$$p_{1:n} \mid L \sim Dirichlet(1_n)$$
+		$$E[p_i \mid L] = 1/n $$
 	 \end{itemize}
 	\end{itemize}	
 \end{frame}
 
 \begin{frame}
 	\frametitle{Full MCMC Inference}
-	Inference or stratum $v$:
+
 	\begin{enumerate}
 	\scriptsize
-		\item Obtain $m^{th}$ set of posterior draws $\omega^{(m)}$ and for each $A=a$, for $j \in S_v$
-		$$  \mu^{(m)}( a, v, L_j ) = g^{-1}( \beta_v^{(m)} + \beta_L^{(m)}L_j + \theta_v^{(m)} a) $$
+		\item Obtain $m^{th}$ set of posterior draws $\omega^{(m)}$ and for each $A=a$
+		$$  \mu^{(m)}( a, v, L_i ) = g^{-1}( \beta_v^{(m)} + \beta_L^{(m)}L_i + \theta_v^{(m)} a )$$
 		
 		 
 		\item Draw Bayesian Bootstrap weights from posterior:
-		$$ p_v^{(m)} \sim Dirichlet(1_{n_v}) $$
+		$$ p_1^{(m)}, p_2^{(m)}, \dots p_n^{(m)} \sim Dirichlet(1_n) $$
 		
 		 
 		\item Integrate of confounder distribution
-		$$ E^{(m)}(Y^a \mid v ) = \int_{\mathcal{L}} \mu(a, v, L) dP_v (L) \approx \sum_{j \in S_v} \mu^{(m)}( a, v, L_j ) \cdot p_{vj}^{(m)} $$
+		$$ E^{(m)}(Y^a \mid v ) = \int_{\mathcal{L}} \mu(a, v, L) dP(L) \approx \sum_{i=1}^n \mu^{(m)}( a, v, L_i ) p_i^{(m)} $$
 		
 		 
 		\item Compute draw of causal odds ratio:
@@ -319,26 +316,27 @@
 	\frametitle{Implementation in Stan}
 	\scriptsize
 	\begin{verbatim}
-	for(v in 1:Pv){
-	...	
-	    // compute conditional means.
-	    cond_mean_y1 = inv_logit( Wv*beta_w + beta_v[v] + theta[v] );
-	    cond_mean_y0 = inv_logit( Wv*beta_w + beta_v[v] );
-    
-	    // Bayesian bootstrap weights
-	    bb_weights = dirichlet_rng( rep_vector(1, nv) ) ;
-    
-	    // taking average over bayesian bootstrap weights
-	    marg_mean_y1 = bb_weights' * cond_mean_y1;
-	    marg_mean_y0 = bb_weights' * cond_mean_y0;
-    
-	    // compute odds ratio 
-	    odds_1 = (marg_mean_y1/(1 - marg_mean_y1));
-	    odds_0 = (marg_mean_y0/(1 - marg_mean_y0));
-	    odds_ratio[v] = odds_1/odds_0;
-	...
-	}
 	
+generated quantities {
+vector[N] bb_weights = dirichlet_rng( rep_vector( 1, N) ) ;
+
+...
+
+for( v in 1:Pv ){
+  for(i in 1:N){
+    cond_mean_y1[i] = inv_logit( L[i]*beta_L + beta_v[v] + theta[v]);
+    cond_mean_y0[i] = inv_logit( L[i]*beta_L + beta_v[v] );
+  }
+  marg_mean_y1 = bb_weights' * cond_mean_y1 ;
+  marg_mean_y0 = bb_weights' * cond_mean_y0 ;
+	
+  odds_1 = marg_mean_y1/(1 - marg_mean_y1);
+  odds_0 = marg_mean_y0/(1 - marg_mean_y0);
+  odds_ratio[v] = odds_1 / odds_0;
+}
+...
+}
+
 	\end{verbatim}
 \end{frame}
 
@@ -365,9 +363,8 @@
 	$$\Delta^a(L)  = E[Y^a \mid A=1, L, v] - E[Y^a \mid A=0, L, v] $$
 	
 	 
-	$$\int \mu(1,v, L) - \mu(0, v, L) \ dP_v(L)  = E[Y^1 - Y^0 \mid v ] + \xi$$
+	$$\int \mu(1,v, L) - \mu(0, v, L) \ dP(L)  = E[Y^1 - Y^0 \mid v ] + \xi$$
 	
-	% note \xi is implicitly a function of v, but ignore to keep notation simple for talk.
 	Estimate of \textcolor{blue}{risk difference} is biased by $\xi$.
 		
 \end{frame}
@@ -376,13 +373,9 @@
 \begin{frame}
 	\frametitle{Form of Violation}
 	Trade-offs involved in sensitivity analyses
-	$$ \xi = \int \Delta^1(L)(1- \pi_v(L)) + \Delta^0(L) \pi_v(L)  \ dP_v(L) $$
+	$$ \xi = \int \Delta^1(L)(1- \pi(L)) + \Delta^0(L) \pi(L)  \ dP(L) $$
+	Simplify $ \Delta := \Delta^1 = \Delta^0$ and $ \Delta \perp L$. Then, 
 	
-	Where $\pi_v = P(A=1\mid L, v)$ is the propensity score. \\
-	 
-	Simplify $ \Delta := \Delta^1 = \Delta^0$ and $ \Delta \perp L,V$. \\
-	 
-	Then, 
 	$$ \xi = \Delta $$
 	
 	Now we can specify priors over $\Delta$.
@@ -413,15 +406,10 @@
 
 	In Step 3 at $m^{th}$ iteration: \\
 
+
 	Draw $\Delta^{(m)}$ from the prior and compute, 
 	
-	$$ E^{(m)}(Y^1 \mid v ) -  E^{(m)}(Y^0 \mid v )  =  \sum_{j \in S_v } \Big\{ \mu^{(m)}( 1, v, L_j )  - \mu^{(m)}( 0, v, L_j ) \Big\}  \cdot p_{vj}^{(m)} $$
-	
-	Subtract off bias from prior, 
-	
-	$$ \Big \{E^{(m)}(Y^1 \mid v ) -  E^{(m)}(Y^0 \mid v ) \Big\}  - \Delta^{(m)} $$
-	
-	
+	$$ E^{(m)}(Y^a \mid v ) =  \Big\{ \sum_{i=1}^n \mu^{(m)}( a, v, L_i ) p_i^{(m)} \Big\} - \Delta^{(m)} $$
 
 \end{frame}
 

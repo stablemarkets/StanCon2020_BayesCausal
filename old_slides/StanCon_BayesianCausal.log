@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2020 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 JUL 2020 23:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,153 +1488,67 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (./StanCon_BayesianCausal.nav)
-<logos/aologo.png, id=13, 212.795pt x 43.16125pt>
-File: logos/aologo.png Graphic file (type png)
- <use logos/aologo.png>
-Package pdftex.def Info: logos/aologo.png used on input line 168.
+<../logos/aologo.png, id=13, 212.795pt x 43.16125pt>
+File: ../logos/aologo.png Graphic file (type png)
+ <use ../logos/aologo.png>
+Package pdftex.def Info: ../logos/aologo.png used on input line 168.
 (pdftex.def)             Requested size: 53.19861pt x 10.79028pt.
 
-<logos/cci_logo.jpg, id=15, 382.42876pt x 133.49875pt>
-File: logos/cci_logo.jpg Graphic file (type jpg)
+<../logos/cci_logo.jpg, id=15, 382.42876pt x 133.49875pt>
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 168.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 168.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
- <logos/DBEI.png, id=16, 412.54124pt x 91.34125pt>
-File: logos/DBEI.png Graphic file (type png)
 
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 168.
+<../logos/DBEI.png, id=16, 412.54124pt x 91.34125pt>
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 168.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./logos/cci_logo.jpg> <./logos/DBEI.png> <./logos/aologo.png>]
-<imgs/paper1.png, id=26, 673.51625pt x 245.91875pt>
-File: imgs/paper1.png Graphic file (type png)
- <use imgs/paper1.png>
-Package pdftex.def Info: imgs/paper1.png used on input line 176.
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <../logos/cci_logo.jpg> <../logos/DBEI.png> <../logos/aologo.png>]
+<../imgs/paper1.png, id=26, 673.51625pt x 245.91875pt>
+File: ../imgs/paper1.png Graphic file (type png)
+
+<use ../imgs/paper1.png>
+Package pdftex.def Info: ../imgs/paper1.png used on input line 176.
 (pdftex.def)             Requested size: 336.7573pt x 122.95906pt.
+ <../imgs/paper2.png, id=27, 421.575pt x 367.3725pt>
+File: ../imgs/paper2.png Graphic file (type png)
 
-<imgs/paper2.png, id=27, 421.575pt x 367.3725pt>
-File: imgs/paper2.png Graphic file (type png)
- <use imgs/paper2.png>
-Package pdftex.def Info: imgs/paper2.png used on input line 176.
+<use ../imgs/paper2.png>
+Package pdftex.def Info: ../imgs/paper2.png used on input line 176.
 (pdftex.def)             Requested size: 126.47346pt x 110.21259pt.
+ <../imgs/paper3.png, id=28, 736.7525pt x 609.27625pt>
+File: ../imgs/paper3.png Graphic file (type png)
 
-<imgs/paper3.png, id=28, 736.7525pt x 609.27625pt>
-File: imgs/paper3.png Graphic file (type png)
- <use imgs/paper3.png>
-Package pdftex.def Info: imgs/paper3.png used on input line 176.
+<use ../imgs/paper3.png>
+Package pdftex.def Info: ../imgs/paper3.png used on input line 176.
 (pdftex.def)             Requested size: 147.34789pt x 121.85309pt.
+ <../imgs/paper4.png, id=29, 696.6025pt x 627.34375pt>
+File: ../imgs/paper4.png Graphic file (type png)
 
-<imgs/paper4.png, id=29, 696.6025pt x 627.34375pt>
-File: imgs/paper4.png Graphic file (type png)
- <use imgs/paper4.png>
-Package pdftex.def Info: imgs/paper4.png used on input line 176.
+<use ../imgs/paper4.png>
+Package pdftex.def Info: ../imgs/paper4.png used on input line 176.
 (pdftex.def)             Requested size: 139.31802pt x 125.46652pt.
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 176.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+ <use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 176.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 176.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 176.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [2
 
- <./imgs/paper1.png> <./imgs/paper2.png> <./imgs/paper3.png> <./imgs/paper4.png
->]
-File: imgs/paper1.png Graphic file (type png)
- <use imgs/paper1.png>
-Package pdftex.def Info: imgs/paper1.png used on input line 176.
-(pdftex.def)             Requested size: 336.7573pt x 122.95906pt.
-File: imgs/paper2.png Graphic file (type png)
+[2
 
-<use imgs/paper2.png>
-Package pdftex.def Info: imgs/paper2.png used on input line 176.
-(pdftex.def)             Requested size: 126.47346pt x 110.21259pt.
-File: imgs/paper3.png Graphic file (type png)
- <use imgs/paper3.png>
-Package pdftex.def Info: imgs/paper3.png used on input line 176.
-(pdftex.def)             Requested size: 147.34789pt x 121.85309pt.
-File: imgs/paper4.png Graphic file (type png)
- <use imgs/paper4.png>
-Package pdftex.def Info: imgs/paper4.png used on input line 176.
-(pdftex.def)             Requested size: 139.31802pt x 125.46652pt.
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 176.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 176.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [3
-
-]
-File: imgs/paper1.png Graphic file (type png)
- <use imgs/paper1.png>
-Package pdftex.def Info: imgs/paper1.png used on input line 176.
-(pdftex.def)             Requested size: 336.7573pt x 122.95906pt.
-File: imgs/paper2.png Graphic file (type png)
-
-<use imgs/paper2.png>
-Package pdftex.def Info: imgs/paper2.png used on input line 176.
-(pdftex.def)             Requested size: 126.47346pt x 110.21259pt.
-File: imgs/paper3.png Graphic file (type png)
- <use imgs/paper3.png>
-Package pdftex.def Info: imgs/paper3.png used on input line 176.
-(pdftex.def)             Requested size: 147.34789pt x 121.85309pt.
-File: imgs/paper4.png Graphic file (type png)
- <use imgs/paper4.png>
-Package pdftex.def Info: imgs/paper4.png used on input line 176.
-(pdftex.def)             Requested size: 139.31802pt x 125.46652pt.
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 176.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 176.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [4
-
-]
-File: imgs/paper1.png Graphic file (type png)
- <use imgs/paper1.png>
-Package pdftex.def Info: imgs/paper1.png used on input line 176.
-(pdftex.def)             Requested size: 336.7573pt x 122.95906pt.
-File: imgs/paper2.png Graphic file (type png)
-
-<use imgs/paper2.png>
-Package pdftex.def Info: imgs/paper2.png used on input line 176.
-(pdftex.def)             Requested size: 126.47346pt x 110.21259pt.
-File: imgs/paper3.png Graphic file (type png)
- <use imgs/paper3.png>
-Package pdftex.def Info: imgs/paper3.png used on input line 176.
-(pdftex.def)             Requested size: 147.34789pt x 121.85309pt.
-File: imgs/paper4.png Graphic file (type png)
- <use imgs/paper4.png>
-Package pdftex.def Info: imgs/paper4.png used on input line 176.
-(pdftex.def)             Requested size: 139.31802pt x 125.46652pt.
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 176.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 176.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [5
-
-]
+ <../imgs/paper1.png> <../imgs/paper2.png> <../imgs/paper3.png> <../imgs/paper4
+.png>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 190.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 190.
@@ -1654,39 +1568,23 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <6> not available
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ppl/b/it' tried instead on input line 190.
 
-<imgs/causal.png, id=54, 931.48pt x 751.80875pt>
-File: imgs/causal.png Graphic file (type png)
- <use imgs/causal.png>
-Package pdftex.def Info: imgs/causal.png used on input line 190.
+<../imgs/causal.png, id=39, 931.48pt x 751.80875pt>
+File: ../imgs/causal.png Graphic file (type png)
+ <use ../imgs/causal.png>
+Package pdftex.def Info: ../imgs/causal.png used on input line 190.
 (pdftex.def)             Requested size: 139.71597pt x 112.76643pt.
-File: logos/cci_logo.jpg Graphic file (type jpg)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 190.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 190.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 190.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 190.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [6
+ [3
 
- <./imgs/causal.png>]
-File: imgs/causal.png Graphic file (type png)
-
-<use imgs/causal.png>
-Package pdftex.def Info: imgs/causal.png used on input line 190.
-(pdftex.def)             Requested size: 139.71597pt x 112.76643pt.
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 190.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 190.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [7
-
-]
+ <../imgs/causal.png>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10.95> not available
 (Font)              Font shape `OT1/ppl/b/it' tried instead on input line 203.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.4> not available
@@ -1695,489 +1593,245 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/it' tried instead on input line 203.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ppl/b/it' tried instead on input line 203.
-File: logos/cci_logo.jpg Graphic file (type jpg)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 203.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 203.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 203.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 203.
+(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+ [4
+
+]
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 218.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 218.
+(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+ [5
+
+]
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 229.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 229.
+(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+ [6
+
+]
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 240.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 240.
+(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+ [7
+
+]
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 260.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 260.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
  [8
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 203.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 203.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 272.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 272.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
  [9
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 203.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 291.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 203.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 291.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
  [10
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 218.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 313.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 218.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 313.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
  [11
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 229.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 229.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [12
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 240.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 240.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
-
-[13
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 240.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 240.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [14
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 260.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 260.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [15
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 260.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 260.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [16
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 260.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 260.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
-
-[17
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 272.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 272.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [18
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 272.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 272.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [19
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 294.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 294.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [20
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 294.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 294.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
-
-[21
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 294.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 294.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [22
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 294.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 294.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [23
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 294.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 294.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [24
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 294.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 294.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
-
-[25
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 316.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 316.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [26
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 316.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 316.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [27
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 316.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 316.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [28
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 316.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 316.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
-
-[29
-
-]
 \openout4 = `StanCon_BayesianCausal.vrb'.
 
- (./StanCon_BayesianCausal.vrb
+
+(./StanCon_BayesianCausal.vrb
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (4.71033pt too wide) in paragraph at lines 7--7
-[]    \OT1/pcr/m/n/8 cond_mean_y1 = inv_logit( Wv*beta_w + beta_v[v] + theta[v]
- );[] 
+Overfull \hbox (23.91034pt too wide) in paragraph at lines 12--12
+[]    \OT1/pcr/m/n/8 cond_mean_y1[i] = inv_logit( L[i]*beta_L + beta_v[v] + the
+ta[v]);[] 
  []
 
 )
-Overfull \vbox (2.64967pt too high) detected at line 343
+Overfull \vbox (12.14967pt too high) detected at line 341
  []
 
-File: logos/cci_logo.jpg Graphic file (type jpg)
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 343.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 341.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 343.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 341.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [30
+ [12
 
 ]
-<code/ppooling_plot.png, id=200, 602.25pt x 501.875pt>
-File: code/ppooling_plot.png Graphic file (type png)
+<../code/ppooling_plot.png, id=107, 602.25pt x 501.875pt>
+File: ../code/ppooling_plot.png Graphic file (type png)
 
-<use code/ppooling_plot.png>
-Package pdftex.def Info: code/ppooling_plot.png used on input line 348.
+<use ../code/ppooling_plot.png>
+Package pdftex.def Info: ../code/ppooling_plot.png used on input line 346.
 (pdftex.def)             Requested size: 240.89572pt x 200.74643pt.
 
-Overfull \vbox (2.3961pt too high) detected at line 348
+Overfull \vbox (2.3961pt too high) detected at line 346
  []
 
-File: logos/cci_logo.jpg Graphic file (type jpg)
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 348.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 346.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 348.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 346.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [31
+ [13
 
- <./code/ppooling_plot.png>]
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 359.
+ <../code/ppooling_plot.png>]
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+ <use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 357.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 359.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 357.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [32
+ [14
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 373.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 373.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 370.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 370.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [33
+ [15
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 373.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 373.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-[34
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 382.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 382.
+(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+ [16
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 389.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 402.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 389.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 402.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [35
+ [17
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 389.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 414.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 389.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 414.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [36
+ [18
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 389.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 389.
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 423.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 423.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [37
+ [19
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 409.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 409.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
 
-[38
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 436.
+(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 436.
+(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
+ [20
 
 ]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 409.
+File: ../logos/cci_logo.jpg Graphic file (type jpg)
+
+<use ../logos/cci_logo.jpg>
+Package pdftex.def Info: ../logos/cci_logo.jpg used on input line 441.
 (pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 409.
+File: ../logos/DBEI.png Graphic file (type png)
+ <use ../logos/DBEI.png>
+Package pdftex.def Info: ../logos/DBEI.png used on input line 441.
 (pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [39
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
-
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 409.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 409.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [40
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 409.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 409.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [41
-
-]
-Overfull \hbox (4.41539pt too wide) detected at line 426
-\OT1/ppl/m/it/10.95 E[]\OT1/cmr/m/n/10.95 (\OT1/ppl/m/it/10.95 Y[] \OMS/cmsy/m/
-n/10.95 j \OT1/ppl/m/it/10.95 v\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OT
-1/ppl/m/it/10.95 E[]\OT1/cmr/m/n/10.95 (\OT1/ppl/m/it/10.95 Y[] \OMS/cmsy/m/n/1
-0.95 j \OT1/ppl/m/it/10.95 v\OT1/cmr/m/n/10.95 ) = [] []\OML/cmm/m/it/10.95 ^^V
-[]\OT1/cmr/m/n/10.95 (\OT1/ppl/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/ppl/m/it/1
-0.95 v\OML/cmm/m/it/10.95 ; \OT1/ppl/m/it/10.95 L[]\OT1/cmr/m/n/10.95 ) \OMS/cm
-sy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 ^^V[]\OT1/cmr/m/n/10.95 (\OT1/ppl/m/n/10.9
-5 0\OML/cmm/m/it/10.95 ; \OT1/ppl/m/it/10.95 v\OML/cmm/m/it/10.95 ; \OT1/ppl/m/
-it/10.95 L[]\OT1/cmr/m/n/10.95 )[] \OMS/cmsy/m/n/10.95 ^^A \OT1/ppl/m/it/10.95 
-p[]
- []
-
-File: logos/cci_logo.jpg Graphic file (type jpg)
-<use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 426.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 426.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [42
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 435.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
-
-<use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 435.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [43
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 448.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 448.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
-
-[44
-
-]
-File: logos/cci_logo.jpg Graphic file (type jpg)
- <use logos/cci_logo.jpg>
-Package pdftex.def Info: logos/cci_logo.jpg used on input line 453.
-(pdftex.def)             Requested size: 56.90083pt x 19.863pt.
-File: logos/DBEI.png Graphic file (type png)
- <use logos/DBEI.png>
-Package pdftex.def Info: logos/DBEI.png used on input line 453.
-(pdftex.def)             Requested size: 99.58475pt x 22.04916pt.
- [45
+ [21
 
 ]
 \tf@nav=\write6
@@ -2189,22 +1843,22 @@ Package pdftex.def Info: logos/DBEI.png used on input line 453.
 \tf@snm=\write8
 \openout8 = `StanCon_BayesianCausal.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
 
 (./StanCon_BayesianCausal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
 Package rerunfilecheck Info: File `StanCon_BayesianCausal.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34077 strings out of 492995
- 681564 string characters out of 6132704
- 886351 words of memory out of 5000000
- 36850 multiletter control sequences out of 15000+600000
- 38856 words of font info for 115 fonts, out of 8000000 for 9000
+ 34028 strings out of 492995
+ 681200 string characters out of 6132704
+ 886372 words of memory out of 5000000
+ 36849 multiletter control sequences out of 15000+600000
+ 38875 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,15n,96p,10427b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2214,19 +1868,20 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on StanCon_BayesianCausal.pdf (45 pages, 637479 bytes).
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/urw/palatino/uplri8a.pfb>
+Output written on StanCon_BayesianCausal.pdf (21 pages, 608785 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

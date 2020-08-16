@@ -30,8 +30,18 @@ theta_v = 1 + c(0, -.5, 0, .5, .6)
 
 Y = rbern(N, prob = invlogit( -1 + 1*W  +  theta_v[V]*A ) ) 
 
-stan_data = list(Y=Y, A=A, V=V, W = W,
-                 Pw = ncol(Wmat), Pv = length(unique(V)), N=N)
+## sample size in each stratum
+n_v = as.numeric(table(V))
+
+## get indices of each stratum
+ind_list = lapply(sort(unique(V)), function(v) c(1:N)[V==v] )
+
+stan_data = list(Y=Y[order(V)], A=A[order(V)], V=V[order(V)], 
+                 W = Wmat[order(V), ],
+                 Pw = ncol(Wmat), 
+                 Pv = length(unique(V)), 
+                 N=N, n_v=n_v,
+                 ind = c(0, cumsum(n_v)))
 
 ####------------------------ Sample Posterior    ---------------------------####
 partial_pool_model = stan_model(file = "partial_pool.stan")
@@ -56,8 +66,12 @@ for(vf in 1:5){
   vval= as.factor(vf)
   
   ## standardize over empirical distribution p(W)
-  marg_mean_y1 = mean( predict(freq_reg, data.frame(W, vfac=vval, A=1 ), type='response') )
-  marg_mean_y0 = mean( predict(freq_reg, data.frame(W, vfac=vval, A=0 ), type='response') )
+  p1 = predict(freq_reg, data.frame(W, vfac=vval, A=1 ), type='response')
+  p0 = predict(freq_reg, data.frame(W, vfac=vval, A=0 ), type='response')
+  
+  ## take mean over empirical distribution among V=v
+  marg_mean_y1 = mean( p1[V==vf] )
+  marg_mean_y0 = mean( p0[V==vf] )
   
   ## compute causal odds ratio
   Psi_freq[vf] = (marg_mean_y1/(1-marg_mean_y1)) / (marg_mean_y0/(1-marg_mean_y0))

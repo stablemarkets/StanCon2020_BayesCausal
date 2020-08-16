@@ -1,25 +1,24 @@
 \frametitle{Implementation in Stan}
 	\scriptsize
 	\begin{verbatim}
+	for(v in 1:Pv){
+	...
+	    // compute conditional means.
+	    cond_mean_y1 = inv_logit( Wv*beta_w + beta_v[v] + theta[v] );
+	    cond_mean_y0 = inv_logit( Wv*beta_w + beta_v[v] );
 
-generated quantities {
-vector[N] bb_weights = dirichlet_rng( rep_vector( 1, N) ) ;
+	    // Bayesian bootstrap weights
+	    bb_weights = dirichlet_rng( rep_vector(1, nv) ) ;
 
-...
+	    // taking average over bayesian bootstrap weights
+	    marg_mean_y1 = bb_weights' * cond_mean_y1;
+	    marg_mean_y0 = bb_weights' * cond_mean_y0;
 
-for( v in 1:Pv ){
-  for(i in 1:N){
-    cond_mean_y1[i] = inv_logit( L[i]*beta_L + beta_v[v] + theta[v]);
-    cond_mean_y0[i] = inv_logit( L[i]*beta_L + beta_v[v] );
-  }
-  marg_mean_y1 = bb_weights' * cond_mean_y1 ;
-  marg_mean_y0 = bb_weights' * cond_mean_y0 ;
-
-  odds_1 = marg_mean_y1/(1 - marg_mean_y1);
-  odds_0 = marg_mean_y0/(1 - marg_mean_y0);
-  odds_ratio[v] = odds_1 / odds_0;
-}
-...
-}
+	    // compute odds ratio
+	    odds_1 = (marg_mean_y1/(1 - marg_mean_y1));
+	    odds_0 = (marg_mean_y0/(1 - marg_mean_y0));
+	    odds_ratio[v] = odds_1/odds_0;
+	...
+	}
 
 	\end{verbatim}
